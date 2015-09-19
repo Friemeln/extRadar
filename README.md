@@ -11,14 +11,17 @@ Benutzt wird dazu: (Stand 19.09.2015)
 - LÖVE 0.9x:
  -- URL: http://www.love2d.org
 
-Installation:
-Den Ordner DATA in das entsprechende Diaspora Verzeichnis kopieren, damit die Diaspora Lua Scripte am Platz sind.
-Zusätzlich sind	im Moment noch Im Diaspora Hauptverzeichnis Folgende Dateien ergänzt worden:
-- lua5.1.dll
-- die LuaSocket Dateien
+Installation Diaspora:
+Den Inhalt des Ordner Diaspora in das entsprechende Diaspora Verzeichnis kopieren, damit dann alle Dateien am richtigen Platz sind.
+Im Script: statestart.lua
+diese Zeile: udp:setpeername ("192.168.188.10",14285) an die entsprechende IP anpassen.
 
 todo:
 
 Jede Menge!!! Macht mal grade so ein Bild damit sich was bewegt :-))
+- korrekte 3D -> 2D Abbildung
+- bessere Monitorerkennung
+- hübschere Icons
+- Unsere Iason als zentraler Radar fürs CIC oder Pilot-Ready-Room
 
 
